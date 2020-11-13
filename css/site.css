@@ -1,0 +1,19 @@
+body{
+	font-family: Montserrat;
+}
+.Title_p{
+	text-align: center;
+}
+.description{
+	text-align: center;
+	font-weight: 500;
+	font-size: 1em;
+}
+.wrap{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.wrap_single{
+	margin-left: 150px;
+	margin-right: 150px;
+}
