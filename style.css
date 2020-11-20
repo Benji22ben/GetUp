@@ -1,0 +1,40 @@
+/*
+Theme Name: GET UP
+Author: Capsul
+Author URI: 
+Description: GET UP theme is a special theme
+Version: 2.4
+Requires at least: 4.7
+Requires PHP: 5.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-SemiBold.ttf") format("ttf"),
+}
+@font-face {
+    font-family: "SpaceGrotesk2";
+    src: url("/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("ttf"),
+}
+body{
+    font-family: SpaceGrotesk;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #1E1E1E;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #F48587;
+    border-radius: 15px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #F01518;
+}

@@ -1,11 +1,8 @@
-
 <?php  
-
 get_header();
-
 ?>
 
-<h1>Hello</h1>
+<h1>GET UP</h1>
 
 <?php bloginfo('name');?> - <?php bloginfo('description');?>
 

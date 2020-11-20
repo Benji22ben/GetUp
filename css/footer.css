@@ -1,0 +1,122 @@
+footer{
+    background-color: #424242 ;
+    color: #ffffff;
+    font-family: SpaceGrotesk;
+    font-weight: 800;
+}
+.wrap{
+    margin-left: 250px;
+    margin-right: 250px;
+    position: relative;
+}
+.getup{
+    text-align: center;
+    position: absolute;
+}
+.logo{ 
+    margin-top: 80px;
+    width: 35%;
+}
+.title-getup{
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer .footer-text-small{
+    width: 170px;
+    margin: 0 auto;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+footer .together{
+    margin: 0 auto;
+    width: 180px;
+    margin-bottom: 20px;
+}
+footer .text-footer{
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 80px;
+    margin-bottom: 15px;
+}
+footer .text-footer .news{
+    color: #F01518;
+}
+footer .center-footer{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;  
+}
+footer .line{
+    background-color: white;
+}
+footer .menu_r{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding : 0px;
+    margin-top: 0px;
+}
+footer .menu_r li{
+    list-style: none;
+}
+.rfooter{
+    display: flex;
+}
+footer .Legal{ 
+    font-size: 0.7em;
+    margin: 0px;
+}
+footer .footer-text-small-2{
+    font-size: 0.5em;
+    font-weight: 300;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+footer .all{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+footer .newsletter{
+    border: solid 3px white;
+    border-radius: 16px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer .newsletter p{
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+footer .mfooter{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 80px;
+}
+footer .mfooter ul{
+    padding : 0px;
+    margin: 0px;
+}
+footer .menu_f{
+    text-align: center;
+}
+footer .mfooter li{
+    list-style: none;
+}
+footer .mfooter li:hover{
+    text-decoration: underline;
+}
+footer .mfooter a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .mfooter li:not(.menu-item-89){
+    margin-top: 30px;
+}

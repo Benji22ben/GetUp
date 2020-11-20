@@ -1,0 +1,80 @@
+header{
+    border-bottom: white;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.15);
+    padding-bottom: 10px;
+}
+header #menu-menu {
+    padding: 0; margin-top: 0px; 
+    text-align: center;
+}
+header #menu-menu li {
+    position: relative;
+    list-style: none;
+    display: inline;
+}
+header #menu-menu a {
+    font-family: Gotham;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;   
+    color: #000000;
+	display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header #menu-menu li:not(.menu-item-87) a:hover{
+    color: #F01518;
+}
+header #menu-item-49 a{
+    color: #F01518;
+    font-size: 18px;
+    font-weight: 600;
+}
+header #menu-reseaux{
+    padding: 0px; margin-top: 0.5%;
+    position: absolute;
+    right: 2%;
+}
+header #menu-reseaux li {
+    list-style: none;
+    display: inline;
+    margin: 0px;
+}
+header #menu-reseaux a {
+    margin: 0 4.5px;
+}
+header #menu-reseaux img{
+    margin: 0px;
+}
+header .sub-menu{
+    visibility: hidden;
+    opacity: 0;
+    background-color: white;
+    border-bottom: black;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.15);
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    padding: 0px;
+    overflow: visible;
+    z-index: 100;
+}
+header .sub-menu li{
+    display: inline-flex !important;
+    width: 250px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+header .sub-menu li a{
+    margin: 0 auto !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+header .menu-item-has-children:hover > .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
